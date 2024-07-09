@@ -73,7 +73,7 @@ a {
 .container {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    padding: 10px;
+    padding: 60px;
     margin: 20px;
     text-align: center;
 }
@@ -83,6 +83,16 @@ a {
     padding: 40px;
     display: flex;
     justify-content: space-between;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.layout1 {
+    background: white;
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: start;
     border-radius: 20px;
     margin-top: 20px;
 }
