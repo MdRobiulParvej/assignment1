@@ -1,5 +1,5 @@
 .navbar {
-    padding: 10px;
+    padding: 20px;
     background-color: white;
     color: black;
     display: flex;
@@ -119,4 +119,45 @@ a {
     width: 560px;
     height: 315px;
     border-radius: 20px;
+}
+
+.target {
+    text-align: center;
+}
+
+.goal {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.html {
+    border-radius: 20px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 300px;
+    height: 200px;
+    padding: 40px;
+}
+
+.css {
+    border-radius: 20px;
+    background: rgba(0, 76, 232, 0.05);
+    width: 300px;
+    height: 200px;
+    padding: 40px;
+}
+
+.js {
+    border-radius: 20px;
+    background: rgba(255, 223, 0, 0.05);
+    width: 300px;
+    height: 200px;
+    padding: 40px;
+}
+
+.learn {
+    text-decoration: underline;
+    font-weight: 600;
 }
