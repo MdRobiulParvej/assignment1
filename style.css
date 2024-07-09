@@ -104,3 +104,19 @@ a {
     height: 220px;
     margin-top: 30px;
 }
+
+.inspire {
+    text-align: center;
+}
+
+.video {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.video iframe {
+    width: 560px;
+    height: 315px;
+    border-radius: 20px;
+}
