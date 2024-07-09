@@ -1,0 +1,26 @@
+.navbar {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+}
+
+.button {
+    border: 1px solid rgb(13, 19, 33);
+    ;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
