@@ -84,6 +84,7 @@ a {
     display: flex;
     justify-content: space-between;
     border-radius: 20px;
+    margin-top: 20px;
 }
 
 .text {
