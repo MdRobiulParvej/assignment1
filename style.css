@@ -123,6 +123,7 @@ a {
 
 .target {
     text-align: center;
+    margin-top: 20px;
 }
 
 .goal {
@@ -160,4 +161,16 @@ a {
 .learn {
     text-decoration: underline;
     font-weight: 600;
+}
+
+.col {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 20px;
+    padding: 40px;
+    margin: 50px;
 }
