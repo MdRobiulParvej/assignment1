@@ -174,3 +174,65 @@ a {
     padding: 40px;
     margin: 50px;
 }
+
+.contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 314px;
+    background-image: url('./assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.input-container {
+    display: flex;
+    gap: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    font-weight: 600;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
